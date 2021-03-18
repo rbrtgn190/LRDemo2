@@ -1,0 +1,12 @@
+##################################################
+controller: "lre-host2"
+group:
+   - group_name: "AOS_Simple"
+     vusers: '20'
+     script_path: "Scripts\\AdvantageOnlineShopping_simple"
+     lg_name:
+        - "lre-host2"
+scheduler:
+   rampup: '30'
+   duration: '60'
+##################################################
