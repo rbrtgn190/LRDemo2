@@ -1,7 +1,5 @@
 ##################################################
-test_name: mytestname
-test_folder_path: "Tests\\mytests" 
-test_content:
+  controller: "lre-host2"
   group:
     - group_name: "TEstInt"
       vusers: '2'
