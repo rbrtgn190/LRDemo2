@@ -1,12 +1,14 @@
-################################################## v1849
-controller: "lre-host1"
-group:
-   - group_name: "AOS_Simple"
-     vusers: '20'
-     script_path: "Scripts\\AdvantageOnlineShopping_simple"
-     lg_name:
-        - "lre-host1"
-scheduler:
-   rampup: '30'
-   duration: '120'
+##################################################
+test_name: mytestname
+test_folder_path: "Tests\\mytests" 
+test_content:
+  group:
+    - group_name: "TEstInt"
+      vusers: '2'
+      script_path: "scripts\\advantageonlineshopping_simple"
+      lg_name:
+        - "lre-host2"
+  scheduler:
+    rampup: '5'
+    duration: '20'
 ##################################################
