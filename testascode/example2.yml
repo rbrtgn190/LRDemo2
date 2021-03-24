@@ -1,18 +1,9 @@
-##################################################
 group:
-  - group_name: "TEstInt"
-     vusers: '20'
+   - group_name: "TEstInt"
+     vusers: '2'
      script_path: "plugin\\TEstInt"
      lg_name:
-       - "LG1"
-       - "LG2"
-  - group_name: "Mtours"
-     vusers: '20'
-     script_path: "plugin\\mtours"
-     lg_name:
-       - "LG3"
-       - "LG4"
+          - "LG1"
 scheduler:
-  rampup: '45'
-  Duration: '300'
-##################################################
+   rampup: '45'
+   duration: '60'
