@@ -1,0 +1,19 @@
+##################################################
+#https://admhelp.microfocus.com/lre/en/2021/online_help/Content/PC/Run_test_using_PC.htm#test_name
+group:
+  - group_name: "TEstInt"
+    vusers: '20'
+    script_path: "plugin\\TEstInt"
+    lg_name:
+	 - "LG1"
+	 - "LG2"
+  - group_name: "Mtours"
+    vusers: '20'
+    script_path: "plugin\\mtours"
+    lg_name:
+	 - "LG3"
+	 - "LG4"
+scheduler:
+   rampup: '45'
+   Duration: '300'
+##################################################
