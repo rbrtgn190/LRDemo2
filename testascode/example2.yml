@@ -4,6 +4,7 @@ group:
      script_path: "plugin\\TEstInt"
      lg_name:
           - "LG1"
+          
 scheduler:
    rampup: '45'
    duration: '60'
