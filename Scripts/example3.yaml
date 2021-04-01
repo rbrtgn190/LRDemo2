@@ -1,9 +1,9 @@
 group:
    - group_name: "TEstInt"
      vusers: '2'
-     script_path: "plugin\\TEstInt"
+     script_path: "Scripts\\DevWeb_AdvantageOnlineShopping"
      lg_name:
-          - "LG1"
+          - "lre-host1"
           
 scheduler:
    rampup: '45'
