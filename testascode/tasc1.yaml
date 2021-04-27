@@ -2,14 +2,13 @@
 #test_folder_path: "testascode"
 #test_content:
 ##################################################
-  controller: "lre-host2"
-  group:
+controller: "lre-host2"
+group:
     - group_name: "TEstInt"
       vusers: '2'
       script_path: "scripts\\advantageonlineshopping_simple"
       lg_name:
         - "lre-host2"
-  scheduler:
+scheduler:
     rampup: '5'
     duration: '20'
-##################################################
