@@ -1,7 +1,3 @@
-#test_name: "tasc1"
-#test_folder_path: "testascode"
-#test_content:
-##################################################
 controller: "lre-host2"
 group:
     - group_name: "TEstInt"
