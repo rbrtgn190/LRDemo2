@@ -1,0 +1,10 @@
+controller: "myd-hvm00223.swinfra.net"
+group:
+    - group_name: "TEstInt"
+      vusers: '2'
+      script_path: "script\\300_transactions_Copy_1"
+      lg_name:
+        - "myd-hvm00222.swinfra.net"
+scheduler:
+    rampup: '5'
+    duration: '20'
