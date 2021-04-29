@@ -2,7 +2,7 @@ controller: "lre-host2"
 group:
     - group_name: "TEstInt"
       vusers: '2'
-      script_path: "scripts\\advantageonlineshopping_simple"
+      script_path: "Scripts\\AdvantageOnlineShopping_simple"
       lg_name:
         - "lre-host2"
 scheduler:
