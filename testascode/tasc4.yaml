@@ -1,10 +1,10 @@
-controller: "myd-hvm00223.swinfra.net"
+controller: "lre-host2"
 group:
     - group_name: "TEstInt"
       vusers: '2'
       script_path: "Scripts\\AdvantageOnlineShopping_simple"
       lg_name:
-        - "myd-hvm00222.swinfra.net"
+        - "lre-host1"
 scheduler:
     rampup: '5'
     duration: '20'
